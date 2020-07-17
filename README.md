@@ -7,6 +7,14 @@
 
 #### <center><span style= "font-family: Marker Felt, fantasy; font-size: 1em;">July 13, 2020 </span></center>
 
+<p align="center">
+<a href="https://www.npmjs.com/package/@appnest/readme"><img alt="NPM Version" src="https://img.shields.io/npm/v/@appnest/readme.svg" height="20"/></a>
+<a href="https://david-dm.org/andreasbm/readme"><img alt="Dependencies" src="https://img.shields.io/david/andreasbm/readme.svg" height="20"/></a>
+<a href="https://github.com/andreasbm/readme/graphs/contributors"><img alt="Contributors" src="https://img.shields.io/github/contributors/andreasbm/readme.svg" height="20"/></a>
+<a href="https://github.com/badges/shields"><img alt="Custom badge" src="https://img.shields.io/badge/custom-badge-f39f37.svg" height="20"/></a>
+<a href="https://github.com/andreasbm/readme/graphs/commit-activity"><img alt="Maintained" src="https://img.shields.io/badge/Maintained%3F-yes-green.svg" height="20"/></a>
+	</p>
+
 [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#project-description)
 
 ### <center><span style= "color: #facf5a; font-family: Marker Felt, fantasy; font-size: 2em;">Table of Contents</span></center>
@@ -69,7 +77,7 @@ _Main users are travelers abroad who are unfamiliar with the cities on their age
 
  [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#minimal-viable-product)
 
- #### <center><span style="color: #facf5a; font-family: Marker Felt, fantasy; font-size: 1.5em;">Minimal Viable Product ✔️</span> 
+ #### <a name="minimal-viable-product"><center><span style="color: #facf5a; font-family: Marker Felt, fantasy; font-size: 1.5em;">Minimal Viable Product ✔️</span></a>
 
  * Website is in portfolio ready state, with designs working as intended. 
 
@@ -78,4 +86,32 @@ _Main users are travelers abroad who are unfamiliar with the cities on their age
  * CRUD functionality, so users can add trips, view trips, delete trips and modify them. 
 
  * Authorization and Authentication are fully functional. 
+
+ [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#product-roadmap)
+
+ #### <center><span style="color: #facf5a; font-family: Marker Felt, fantasy; font-size: 1.5em;">Product RoadMap</span> 
+
+ + Project Mission & Summary
+     - Welcome to ItinerizeMe, where you can travel worry free. We at ItinerizeMe want your travel experience to be as easy as clicking a button. This mobile friendly application allows a user to quickly figure out their daily travel plans.
+
+ + Timeline 
+     - Week 1: Add in extensive Readme, start researching API's and start to build components. 
+     - Week 2: Start coding in components, retrieve data from APIS, and add in authentication and authorization. 
+     - Week 3: Add in styling to page and finish adding components if not finished. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
