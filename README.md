@@ -48,6 +48,29 @@
  ### <center><span style="color: #facf5a; font-family: Marker Felt, fantasy; font-size: 2em;">Description</span>
 
 _This dynamic site is intended for the traveler who can never decide what to do with their day. It allows the user to enter in their travel dates and location and be able to get a curated day by day trip plan using the Triposo API. They are able to login and add different trips to their list and save them to the database. They will be able to see each location on a Google map to know exactly where they are going each day._
+[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#product-roadmap)
+
+ #### <center><span style="color: #facf5a; font-family: Marker Felt, fantasy; font-size: 1.5em;">Product RoadMap</span> 
+
+ + Project Mission & Summary
+     - Welcome to ItinerizeMe, where you can travel worry free. We at ItinerizeMe want your travel experience to be as easy as clicking a button. This mobile friendly application allows a user to quickly figure out their daily travel plans.
+
+ + Timeline 
+     - Week 1: Add in extensive Readme, start researching API's and start to build components. 
+     - Week 2: Start coding in components, retrieve data from APIS, and add in authentication and authorization. 
+     - Week 3: Add in styling to page, finish Readme, and finalize components if not complete. 
+  + Goals
+      - Authorization and Authentication implemented for the user to login/sign-out to have the ability to add, modify and delete cities in their queue. 
+
+       - Connect to Triposo API to retrieve travel data about places to see, eat and shop. 
+
+       - Connect to Uber/Lyft API to get transportation to locations in itinerary.
+
+       - Connect to TransitFeed API to get transportation to locations in itinerary.
+
+       - Keep trips in separate groups in Firebase database and have ability to add in other trips with various cities. 
+
+       - Create mobile friendly version using React Native.
 
 [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#known-bugs)
 
@@ -87,17 +110,16 @@ _Main users are travelers abroad who are unfamiliar with the cities on their age
 
  * Authorization and Authentication are fully functional. 
 
- [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#product-roadmap)
+ [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#specs)
 
- #### <center><span style="color: #facf5a; font-family: Marker Felt, fantasy; font-size: 1.5em;">Product RoadMap</span> 
+#### <a name="minimal-viable-product"><center><span style="color: #facf5a; font-family: Marker Felt, fantasy; font-size: 1.5em;">Specs 🔍</span></a>
 
- + Project Mission & Summary
-     - Welcome to ItinerizeMe, where you can travel worry free. We at ItinerizeMe want your travel experience to be as easy as clicking a button. This mobile friendly application allows a user to quickly figure out their daily travel plans.
+ | Spec | Input | Output |
+| -------------     | ------------- | ------------- |
+|  |  |  |
 
- + Timeline 
-     - Week 1: Add in extensive Readme, start researching API's and start to build components. 
-     - Week 2: Start coding in components, retrieve data from APIS, and add in authentication and authorization. 
-     - Week 3: Add in styling to page and finish adding components if not finished. 
+
+[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#component-diagram)
 
 
 
