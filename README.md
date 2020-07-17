@@ -11,7 +11,6 @@
 <a href="https://www.npmjs.com/package/@appnest/readme"><img alt="NPM Version" src="https://img.shields.io/npm/v/@appnest/readme.svg" height="20"/></a>
 <a href="https://david-dm.org/andreasbm/readme"><img alt="Dependencies" src="https://img.shields.io/david/andreasbm/readme.svg" height="20"/></a>
 <a href="https://github.com/andreasbm/readme/graphs/contributors"><img alt="Contributors" src="https://img.shields.io/github/contributors/andreasbm/readme.svg" height="20"/></a>
-<a href="https://github.com/badges/shields"><img alt="Custom badge" src="https://img.shields.io/badge/custom-badge-f39f37.svg" height="20"/></a>
 <a href="https://github.com/andreasbm/readme/graphs/commit-activity"><img alt="Maintained" src="https://img.shields.io/badge/Maintained%3F-yes-green.svg" height="20"/></a>
 	</p>
 
@@ -183,9 +182,9 @@ npm run start
  * Use can find deployed website by the provided link [here]()  
 
 
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#installation)
+[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#technology)
 
-#### <a name="deployed-website"><center><span style="color: #facf5a; font-family: Marker Felt, fantasy; font-size: 1.5em;">Technology 🤖</span></a>
+#### <a name="technology"><center><span style="color: #facf5a; font-family: Marker Felt, fantasy; font-size: 1.5em;">Technology 🤖</span></a>
 
 + React
    - React Bootstrap
@@ -194,9 +193,41 @@ npm run start
  
  + JavaScript
  + Firebase
- + CSS
+ + CSS/SASS
  + Bootstrap
  + Markdown
  + Redux
  + Triposo API
+ + Git/Github
+ 
+
+ [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#contributors)
+
+#### <a name="contributors"><center><span style="color: #facf5a; font-family: Marker Felt, fantasy; font-size: 1.5em;">Contributors 🙋‍♀️</span></a>
+<center>
+
+
+
+
+| [<img alt="Celeste Field" src="./public/self.png" width="100">](https://www.linkedin.com/in/celestefield/) | [<img alt="You?" src="https://joeschmoe.io/api/v1/random" width="100">](https://github.com/fieldceleste/capstone-itinerizeMe/master/Contributing.md) |
+|:--------------------------------------------------:|:--------------------------------------------------:|
+| [Celeste Field](https://www.linkedin.com/in/celestefield) | [You?](https://github.com/fieldceleste/capstone-itinerizeMe/master/Contributing.md) |
+| 🔥                                               |                                                  |
+</center>
+
+ [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#contact)
+ 
+ #### <a name="contact"><center><span style="color: #facf5a; font-family: Marker Felt, fantasy; font-size: 1.5em;">Contact ✉️</span></a>
+
+
+ * Questions or concerns? Please contact fieldceleste@gmail.com 
+
+ [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#license)
+
+ #### <a name="contact"><center><span style="color: #facf5a; font-family: Marker Felt, fantasy; font-size: 1.5em;">License 📒</span></a>
+
+ 
+ + Licensed under [MIT](https://opensource.org/licenses/MIT).
+
+ + Copyright (c) 2020 **Celeste Field**
 
