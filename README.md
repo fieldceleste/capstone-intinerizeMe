@@ -69,5 +69,13 @@ _Main users are travelers abroad who are unfamiliar with the cities on their age
 
  [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#minimal-viable-product)
 
- #### <center><span style="color: #facf5a; font-family: Marker Felt, fantasy; font-size: 1.5em;">Minimal Viable Product</span> 
+ #### <center><span style="color: #facf5a; font-family: Marker Felt, fantasy; font-size: 1.5em;">Minimal Viable Product ✔️</span> 
+
+ * Website is in portfolio ready state, with designs working as intended. 
+
+ * Click functions work as intended without bugs. 
+
+ * CRUD functionality, so users can add trips, view trips, delete trips and modify them. 
+
+ * Authorization and Authentication are fully functional. 
 
