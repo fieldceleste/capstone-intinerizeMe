@@ -43,11 +43,31 @@ _This dynamic site is intended for the traveler who can never decide what to do 
 
 [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#known-bugs)
 
-#### <center><span style="color: #facf5a; font-family: Marker Felt, fantasy; font-size: 1.5em;">Known Bugs</span>
+#### <center><span style="color: #facf5a; font-family: Marker Felt, fantasy; font-size: 1.5em;">Known Bugs 🐞</span>
 
-<center> No known bugs at this time. </center>
+#### <center> No known bugs at this time. </center>
 
 [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#user-stories)
 
-#### <center><span style="color: #facf5a; font-family: Marker Felt, fantasy; font-size: 1.5em;">User Stories</span>
+#### <center><span style="color: #facf5a; font-family: Marker Felt, fantasy; font-size: 1.5em;">User Stories 📖</span> 
+
+_Main users are travelers abroad who are unfamiliar with the cities on their agenda, students who are new to their campus town, locals who just want to explore their own city and business travelers who only have a short amount of time to explore._
+
+* The application will allow the user to create an account, login or logout. 
+
+* The application will allow the user to enter in their trip details with time of arrival/ departure, dates of travel, and city location. 
+
+ * The application will allow the user to click on a place of interest or food location and see information about it. 
+
+ * The application will allow the user to see the point of interest on the map. 
+
+ * The application will allow the user to click on different days and see a completely new itinerary. 
+
+ * The application will adjust things to do on the first and last day based on the time of departure and arrival. 
+
+ * The application will save their city to the database so the user can add more locations to one trip. 
+
+ [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#minimal-viable-product)
+
+ #### <center><span style="color: #facf5a; font-family: Marker Felt, fantasy; font-size: 1.5em;">Minimal Viable Product</span> 
 
