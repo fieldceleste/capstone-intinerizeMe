@@ -4,7 +4,7 @@
 [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#headline)
 
 <p align="center"> 
-<div style= "font-family: Marker Felt, fantasy; font-size: 2em;">By: Celeste Field</div>
+<div class= "headlines">By: Celeste Field</div>
 </p>
 
 <p align="center"> <div style= "font-family: Marker Felt, fantasy; font-size: 1em;">July 13, 2020 </div></p>
