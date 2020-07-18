@@ -3,8 +3,8 @@
 
 [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#headline)
 
-<p align="center"> 
-<span class= "headlines" markdown"1">By: Celeste Field</div>
+<p style="color:#facf5a;"> 
+ By: Celeste Field</div>
 </p>
 
 <p align="center"> <div cite= "font-family: Marker Felt, fantasy; font-size: 1em;">July 13, 2020 </div></p>
