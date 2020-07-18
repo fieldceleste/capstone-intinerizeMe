@@ -87,7 +87,7 @@ __This dynamic site is intended for the traveler who can never decide what to do
 
 [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#user-stories)
 
-<p align="center"><a name="#prerequisites">
+<p align="center"><a name="#user-stories">
 <img src="./public/book.png"></a>
 </p>
 
