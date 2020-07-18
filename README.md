@@ -192,6 +192,7 @@ npm run start
    - React Router
  
  + JavaScript
+ + JSON
  + Firebase
  + CSS/SASS
  + Bootstrap
