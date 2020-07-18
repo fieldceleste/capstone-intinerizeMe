@@ -7,7 +7,7 @@
 <span class= "headlines" markdown"1">By: Celeste Field</div>
 </p>
 
-<p align="center"> <div style= "font-family: Marker Felt, fantasy; font-size: 1em;">July 13, 2020 </div></p>
+<p align="center"> <div cite= "font-family: Marker Felt, fantasy; font-size: 1em;">July 13, 2020 </div></p>
 
 <p align="center">
 <a href="https://www.npmjs.com/package/@appnest/readme"><img alt="NPM Version" src="https://img.shields.io/npm/v/@appnest/readme.svg" height="20"/></a>
@@ -18,7 +18,7 @@
 
 [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#project-description)
 
-<p align="center"><span style= "color: #facf5a; font-family: Marker Felt, fantasy; font-size: 2em;">Table of Contents</span></p>
+<p align="center"><div style= "color: #facf5a; font-family: Marker Felt, fantasy; font-size: 2em;">Table of Contents</span></div>
 
 <span style= "font-family: Marker Felt, fantasy;" >
 
