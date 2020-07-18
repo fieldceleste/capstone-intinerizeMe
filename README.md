@@ -3,9 +3,11 @@
 
 [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#headline)
 
-## <center><span style= "font-family: Marker Felt, fantasy; font-size: 1em;">**By: Celeste Field**</span></center>
+<p align="center"> 
+<span style= "font-family: Marker Felt, fantasy; font-size: 2em;">By: Celeste Field</span>
+</p>
 
-#### <center><span style= "font-family: Marker Felt, fantasy; font-size: 1em;">July 13, 2020 </span></center>
+<p align="center"> <span style= "font-family: Marker Felt, fantasy; font-size: 1em;">July 13, 2020 </span></p>
 
 <p align="center">
 <a href="https://www.npmjs.com/package/@appnest/readme"><img alt="NPM Version" src="https://img.shields.io/npm/v/@appnest/readme.svg" height="20"/></a>
@@ -16,7 +18,7 @@
 
 [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#project-description)
 
-### <center><span style= "color: #facf5a; font-family: Marker Felt, fantasy; font-size: 2em;">Table of Contents</span></center>
+<p align="center"><span style= "color: #facf5a; font-family: Marker Felt, fantasy; font-size: 2em;">Table of Contents</span></p>
 
 <span style= "font-family: Marker Felt, fantasy;" >
 
@@ -43,12 +45,12 @@
 
 [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#description)
 
- ### <center><span style="color: #facf5a; font-family: Marker Felt, fantasy; font-size: 2em;">Description</span>
+<p align="center"><span style="color: #facf5a; font-family: Marker Felt, fantasy; font-size: 2em;">Description</span></p>
 
 _This dynamic site is intended for the traveler who can never decide what to do with their day. It allows the user to enter in their travel dates and location and be able to get a curated day by day trip plan using the Triposo API. They are able to login and add different trips to their list and save them to the database. They will be able to see each location on a Google map to know exactly where they are going each day._
 [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#product-roadmap)
 
- #### <center><span style="color: #facf5a; font-family: Marker Felt, fantasy; font-size: 1.5em;">Product RoadMap 📍</span> 
+<p align="center"><span style="color: #facf5a; font-family: Marker Felt, fantasy; font-size: 1.5em;">Product RoadMap 📍</span></p> 
 
  + Project Mission & Summary
      - Welcome to ItinerizeMe, where you can travel worry free. We at ItinerizeMe want your travel experience to be as easy as clicking a button. This mobile friendly application allows a user to quickly figure out their daily travel plans.
@@ -72,13 +74,13 @@ _This dynamic site is intended for the traveler who can never decide what to do 
 
 [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#known-bugs)
 
-#### <center><span style="color: #facf5a; font-family: Marker Felt, fantasy; font-size: 1.5em;">Known Bugs 🐞</span>
+<p align="center"><span style="color: #facf5a; font-family: Marker Felt, fantasy; font-size: 1.5em;">Known Bugs 🐞</span></p>
 
-#### <center> No known bugs at this time. </center>
+<p align="center"> No known bugs at this time. </center></p>
 
 [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#user-stories)
 
-#### <center><span style="color: #facf5a; font-family: Marker Felt, fantasy; font-size: 1.5em;">User Stories 📖</span> 
+<p align="center"><span style="color: #facf5a; font-family: Marker Felt, fantasy; font-size: 1.5em;">User Stories 📖</span></p>
 
 _Main users are travelers abroad who are unfamiliar with the cities on their agenda, students who are new to their campus town, locals who just want to explore their own city and business travelers who only have a short amount of time to explore._
 
@@ -98,7 +100,7 @@ _Main users are travelers abroad who are unfamiliar with the cities on their age
 
  [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#minimal-viable-product)
 
- #### <a name="minimal-viable-product"><center><span style="color: #facf5a; font-family: Marker Felt, fantasy; font-size: 1.5em;">Minimal Viable Product ✔️</span></a>
+<p align="center"><a name="minimal-viable-product"><span style="color: #facf5a; font-family: Marker Felt, fantasy; font-size: 1.5em;">Minimal Viable Product ✔️</span></a></p>
 
  * Website is in portfolio ready state, with designs working as intended. 
 
@@ -110,7 +112,7 @@ _Main users are travelers abroad who are unfamiliar with the cities on their age
 
  [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#specs)
 
-#### <a name="specs"><center><span style="color: #facf5a; font-family: Marker Felt, fantasy; font-size: 1.5em;">Specs 🔍</span></a>
+<p align="center"><a name="specs"><span style="color: #facf5a; font-family: Marker Felt, fantasy; font-size: 1.5em;">Specs 🔍</span></a></p>
 
  | Spec | Input | Output |
 | -------------     | ------------- | ------------- |
@@ -119,19 +121,19 @@ enter in specs when complete
 
 [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#component-diagram)
 
-#### <a name="component-diagram"><center><span style="color: #facf5a; font-family: Marker Felt, fantasy; font-size: 1.5em;">Component Diagram ✏️ </span></a>
+<p align="center"><a name="component-diagram"><span style="color: #facf5a; font-family: Marker Felt, fantasy; font-size: 1.5em;">Component Diagram ✏️ </span></a></p>
  images here 
 
 [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#screenshots)
 
-#### <a name="screenshots"><center><span style="color: #facf5a; font-family: Marker Felt, fantasy; font-size: 1.5em;">Visuals 📸 </span></a>
+<p align="center"><a name="screenshots"><span style="color: #facf5a; font-family: Marker Felt, fantasy; font-size: 1.5em;">Visuals 📸 </span></a></p>
 
 images here when complete
 
 [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#prerequisites)
 
 
-#### <a name="#prerequisites"><center><span style="color: #facf5a; font-family: Marker Felt, fantasy; font-size: 1.5em;">Prerequisites 🖥️</span></a>
+<p align="center"><a name="#prerequisites"><span style="color: #facf5a; font-family: Marker Felt, fantasy; font-size: 1.5em;">Prerequisites 🖥️</span></a></p>
 
    * Download a code editor, such as Visual Code studio, Atom, Sublime Text. 
 
@@ -144,7 +146,7 @@ images here when complete
 
 [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#installation)
 
-#### <a name="installation"><center><span style="color: #facf5a; font-family: Marker Felt, fantasy; font-size: 1.5em;">Installation 🖥️</span></a>
+<p align="center"><a name="installation"><span style="color: #facf5a; font-family: Marker Felt, fantasy; font-size: 1.5em;">Installation 🖥️</span></a></p>
 
 1. Open Terminal (macOS) or PowerShell (Windows)
 
@@ -178,13 +180,14 @@ npm run build
 ```
 npm run start
 ```
-#### <a name="deployed-website"><center><span style="color: #facf5a; font-family: Marker Felt, fantasy; font-size: 1.5em;">Deployed Site</span></a>
+<p align="center"><a name="deployed-website"><span style="color: #facf5a; font-family: Marker Felt, fantasy; font-size: 1.5em;">Deployed Site</span></a></p>
+
  * Use can find deployed website by the provided link [here]()  
 
 
 [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#technology)
 
-#### <a name="technology"><center><span style="color: #facf5a; font-family: Marker Felt, fantasy; font-size: 1.5em;">Technology 🤖</span></a>
+<p align="center"><a name="technology"><span style="color: #facf5a; font-family: Marker Felt, fantasy; font-size: 1.5em;">Technology 🤖</span></a></p>
 
 + React
    - React Bootstrap
@@ -204,28 +207,27 @@ npm run start
 
  [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#contributors)
 
-#### <a name="contributors"><center><span style="color: #facf5a; font-family: Marker Felt, fantasy; font-size: 1.5em;">Contributors 🙋‍♀️</span></a>
-<center>
+<p align="center"><a name="contributors"><span style="color: #facf5a; font-family: Marker Felt, fantasy; font-size: 1.5em;">Contributors 🙋‍♀️</span></a></p>
 
 
 
-
-| [<img alt="Celeste Field" src="./public/self.png" width="100">](https://www.linkedin.com/in/celestefield/) | [<img alt="You?" src="https://joeschmoe.io/api/v1/random" width="100">](https://github.com/fieldceleste/capstone-itinerizeMe/master/Contributing.md) |
+| [<img alt="Celeste Field" align="center" src="./public/self.png" width="100">](https://www.linkedin.com/in/celestefield/) | [<img alt="You?" align="center" src="https://joeschmoe.io/api/v1/random" width="100">](https://github.com/fieldceleste/capstone-itinerizeMe/master/Contributing.md) |
 |:--------------------------------------------------:|:--------------------------------------------------:|
 | [Celeste Field](https://www.linkedin.com/in/celestefield) | [You?](https://github.com/fieldceleste/capstone-itinerizeMe/master/Contributing.md) |
 | 🔥                                               |                                                  |
-</center>
+
+
 
  [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#contact)
  
- #### <a name="contact"><center><span style="color: #facf5a; font-family: Marker Felt, fantasy; font-size: 1.5em;">Contact ✉️</span></a>
+ <p align="center"><a name="contact"><span style="color: #facf5a; font-family: Marker Felt, fantasy; font-size: 1.5em;">Contact ✉️</span></a></p>
 
 
  * Questions or concerns? Please contact fieldceleste@gmail.com 
 
  [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#license)
 
- #### <a name="contact"><center><span style="color: #facf5a; font-family: Marker Felt, fantasy; font-size: 1.5em;">License 📒</span></a>
+<p align="center"><a name="contact"><span style="color: #facf5a; font-family: Marker Felt, fantasy; font-size: 1.5em;">License 📒</span></a></p>
 
  
  + Licensed under [MIT](https://opensource.org/licenses/MIT).
