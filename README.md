@@ -3,24 +3,25 @@
 
 [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#headline)
 
-<p style="color:#facf5a;"> 
- By: Celeste Field</div>
-</p>
+ <p align="center">By: Celeste Field </p>
 
-<p align="center"> <div cite= "font-family: Marker Felt, fantasy; font-size: 1em;">July 13, 2020 </div></p>
+<p align="center">July 13, 2020 </div></p>
 
 <p align="center">
 <a href="https://www.npmjs.com/package/@appnest/readme"><img alt="NPM Version" src="https://img.shields.io/npm/v/@appnest/readme.svg" height="20"/></a>
 <a href="https://david-dm.org/andreasbm/readme"><img alt="Dependencies" src="https://img.shields.io/david/andreasbm/readme.svg" height="20"/></a>
 <a href="https://github.com/andreasbm/readme/graphs/contributors"><img alt="Contributors" src="https://img.shields.io/github/contributors/andreasbm/readme.svg" height="20"/></a>
 <a href="https://github.com/andreasbm/readme/graphs/commit-activity"><img alt="Maintained" src="https://img.shields.io/badge/Maintained%3F-yes-green.svg" height="20"/></a>
-	</p>
+</p>
 
 [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#project-description)
 
-<p align="center"><div style= "color: #facf5a; font-family: Marker Felt, fantasy; font-size: 2em;">Table of Contents</span></div>
+<p align="center"> 
+<img src="./public/table.png">
+</p>
 
-<span style= "font-family: Marker Felt, fantasy;" >
+
+<p style= "font-family: Marker Felt, fantasy;" >
 
 * About the Project
     * [Description](#description)
@@ -41,7 +42,7 @@
     * [Contributors](#contributors)
     * [Contact](#contact)
     * [License](#license)
-  </span>
+  </p>
 
 [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#description)
 
