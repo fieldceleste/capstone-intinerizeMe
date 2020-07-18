@@ -1,13 +1,13 @@
 
-![logo](./public/logo.png)
+ ![logo](./public/logo.png) 
 
 [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#headline)
 
 <p align="center"> 
-<span style= "font-family: Marker Felt, fantasy; font-size: 2em;">By: Celeste Field</span>
+<div style= "font-family: Marker Felt, fantasy; font-size: 2em;">By: Celeste Field</div>
 </p>
 
-<p align="center"> <span style= "font-family: Marker Felt, fantasy; font-size: 1em;">July 13, 2020 </span></p>
+<p align="center"> <div style= "font-family: Marker Felt, fantasy; font-size: 1em;">July 13, 2020 </div></p>
 
 <p align="center">
 <a href="https://www.npmjs.com/package/@appnest/readme"><img alt="NPM Version" src="https://img.shields.io/npm/v/@appnest/readme.svg" height="20"/></a>
