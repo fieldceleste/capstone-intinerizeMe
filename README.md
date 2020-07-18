@@ -1,5 +1,7 @@
+<p align="center"> 
+<img src="./public/logo.png">
+</p>
 
- ![logo](./public/logo.png) 
 
 [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#headline)
 
@@ -20,8 +22,6 @@
 <img src="./public/table.png">
 </p>
 
-
-<p style= "font-family: Marker Felt, fantasy;" >
 
 * About the Project
     * [Description](#description)
@@ -46,12 +46,16 @@
 
 [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#description)
 
-<p align="center"><span style="color: #facf5a; font-family: Marker Felt, fantasy; font-size: 2em;">Description</span></p>
+<p align="center"> 
+<img src="./public/description.png">
+</p>
 
-_This dynamic site is intended for the traveler who can never decide what to do with their day. It allows the user to enter in their travel dates and location and be able to get a curated day by day trip plan using the Triposo API. They are able to login and add different trips to their list and save them to the database. They will be able to see each location on a Google map to know exactly where they are going each day._
+__This dynamic site is intended for the traveler who can never decide what to do with their day. It allows the user to enter in their travel dates and location and be able to get a curated day by day trip plan using the Triposo API. They are able to login and add different trips to their list and save them to the database. They will be able to see each location on a Google map to know exactly where they are going each day.__
 [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#product-roadmap)
 
-<p align="center"><span style="color: #facf5a; font-family: Marker Felt, fantasy; font-size: 1.5em;">Product RoadMap 📍</span></p> 
+<p align="center">
+<img src="./public/road.png">
+</p>
 
  + Project Mission & Summary
      - Welcome to ItinerizeMe, where you can travel worry free. We at ItinerizeMe want your travel experience to be as easy as clicking a button. This mobile friendly application allows a user to quickly figure out their daily travel plans.
@@ -75,13 +79,17 @@ _This dynamic site is intended for the traveler who can never decide what to do 
 
 [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#known-bugs)
 
-<p align="center"><span style="color: #facf5a; font-family: Marker Felt, fantasy; font-size: 1.5em;">Known Bugs 🐞</span></p>
+<p align="center">
+<img src="./public/bugs.png">
+</p>
 
 <p align="center"> No known bugs at this time. </center></p>
 
 [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#user-stories)
 
-<p align="center"><span style="color: #facf5a; font-family: Marker Felt, fantasy; font-size: 1.5em;">User Stories 📖</span></p>
+<p align="center"><a name="#prerequisites">
+<img src="./public/book.png"></a>
+</p>
 
 _Main users are travelers abroad who are unfamiliar with the cities on their agenda, students who are new to their campus town, locals who just want to explore their own city and business travelers who only have a short amount of time to explore._
 
@@ -101,7 +109,9 @@ _Main users are travelers abroad who are unfamiliar with the cities on their age
 
  [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#minimal-viable-product)
 
-<p align="center"><a name="minimal-viable-product"><span style="color: #facf5a; font-family: Marker Felt, fantasy; font-size: 1.5em;">Minimal Viable Product ✔️</span></a></p>
+<p align="center">
+<img src="./public/mvp.png">
+</p>
 
  * Website is in portfolio ready state, with designs working as intended. 
 
@@ -113,7 +123,9 @@ _Main users are travelers abroad who are unfamiliar with the cities on their age
 
  [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#specs)
 
-<p align="center"><a name="specs"><span style="color: #facf5a; font-family: Marker Felt, fantasy; font-size: 1.5em;">Specs 🔍</span></a></p>
+<p align="center">
+<img src="./public/spec.png">
+</p>
 
  | Spec | Input | Output |
 | -------------     | ------------- | ------------- |
@@ -122,7 +134,9 @@ enter in specs when complete
 
 [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#component-diagram)
 
-<p align="center"><a name="component-diagram"><span style="color: #facf5a; font-family: Marker Felt, fantasy; font-size: 1.5em;">Component Diagram ✏️ </span></a></p>
+<p align="center">
+<img src="./public/comp.png">
+</p>
  images here 
 
 [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#screenshots)
