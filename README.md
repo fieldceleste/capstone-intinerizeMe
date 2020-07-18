@@ -18,7 +18,7 @@
 
 [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#project-description)
 
-<p align="center"> 
+<p align="center">
 <img src="./public/table.png">
 </p>
 
@@ -46,16 +46,16 @@
 
 [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#description)
 
-<p align="center"> 
+<p align="center"><a name="description">
 <img src="./public/description.png">
-</p>
+</p></a>
 
 __This dynamic site is intended for the traveler who can never decide what to do with their day. It allows the user to enter in their travel dates and location and be able to get a curated day by day trip plan using the Triposo API. They are able to login and add different trips to their list and save them to the database. They will be able to see each location on a Google map to know exactly where they are going each day.__
 [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#product-roadmap)
 
-<p align="center">
+<p align="center"><a name="product-roadmap">
 <img src="./public/road.png">
-</p>
+</p></a>
 
  + Project Mission & Summary
      - Welcome to ItinerizeMe, where you can travel worry free. We at ItinerizeMe want your travel experience to be as easy as clicking a button. This mobile friendly application allows a user to quickly figure out their daily travel plans.
@@ -79,17 +79,17 @@ __This dynamic site is intended for the traveler who can never decide what to do
 
 [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#known-bugs)
 
-<p align="center">
+<p align="center"><a name="known-bugs">
 <img src="./public/bugs.png">
-</p>
+</p></a>
 
 <p align="center"> No known bugs at this time. </center></p>
 
 [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#user-stories)
 
 <p align="center"><a name="user-stories">
-<img src="./public/book.png"></a>
-</p>
+<img src="./public/book.png">
+</p></a>
 
 _Main users are travelers abroad who are unfamiliar with the cities on their agenda, students who are new to their campus town, locals who just want to explore their own city and business travelers who only have a short amount of time to explore._
 
@@ -109,9 +109,9 @@ _Main users are travelers abroad who are unfamiliar with the cities on their age
 
  [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#minimal-viable-product)
 
-<p align="center">
+<p align="center"><a name="minimal-viable-product">
 <img src="./public/mvp.png">
-</p>
+</p></a>
 
  * Website is in portfolio ready state, with designs working as intended. 
 
@@ -123,9 +123,9 @@ _Main users are travelers abroad who are unfamiliar with the cities on their age
 
  [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#specs)
 
-<p align="center">
-<img src="./public/spec.png">
-</p>
+<p align="center"><a name="specs">
+<img src="./public/specs.png">
+</p></a>
 
  | Spec | Input | Output |
 | -------------     | ------------- | ------------- |
@@ -134,21 +134,24 @@ enter in specs when complete
 
 [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#component-diagram)
 
-<p align="center">
+<p align="center"><a name="component-diagram">
 <img src="./public/comp.png">
-</p>
+</p></a>
  images here 
 
 [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#screenshots)
 
-<p align="center"><a name="screenshots"><span style="color: #facf5a; font-family: Marker Felt, fantasy; font-size: 1.5em;">Visuals 📸 </span></a></p>
+<p align="center"><a name="screenshots">
+<img src="./public/visual.png">
+</p></a>
 
 images here when complete
 
 [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#prerequisites)
 
-
-<p align="center"><a name="#prerequisites"><span style="color: #facf5a; font-family: Marker Felt, fantasy; font-size: 1.5em;">Prerequisites 🖥️</span></a></p>
+<p align="center"><a name="prerequisites">
+<img src="./public/pre.png">
+</p></a>
 
    * Download a code editor, such as Visual Code studio, Atom, Sublime Text. 
 
@@ -161,7 +164,9 @@ images here when complete
 
 [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#installation)
 
-<p align="center"><a name="installation"><span style="color: #facf5a; font-family: Marker Felt, fantasy; font-size: 1.5em;">Installation 🖥️</span></a></p>
+<p align="center"><a name="installation">
+<img src="./public/install.png">
+</p></a>
 
 1. Open Terminal (macOS) or PowerShell (Windows)
 
@@ -195,14 +200,18 @@ npm run build
 ```
 npm run start
 ```
-<p align="center"><a name="deployed-website"><span style="color: #facf5a; font-family: Marker Felt, fantasy; font-size: 1.5em;">Deployed Site</span></a></p>
+<p align="center"><a name="deployed-website">
+<img src="./public/deploy.png">
+</p></a>
 
  * Use can find deployed website by the provided link [here]()  
 
 
 [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#technology)
 
-<p align="center"><a name="technology"><span style="color: #facf5a; font-family: Marker Felt, fantasy; font-size: 1.5em;">Technology 🤖</span></a></p>
+<p align="center"><a name="technology">
+<img src="./public/tech.png">
+</p></a>
 
 + React
    - React Bootstrap
@@ -222,8 +231,12 @@ npm run start
 
  [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#contributors)
 
-<p align="center"><a name="contributors"><span style="color: #facf5a; font-family: Marker Felt, fantasy; font-size: 1.5em;">Contributors 🙋‍♀️</span></a></p>
+<p align="center"><a name="contributors">
+<img src="./public/hand.png">
+</p></a>
 
+
+<div class ="center">
 
 
 | [<img alt="Celeste Field" align="center" src="./public/self.png" width="100">](https://www.linkedin.com/in/celestefield/) | [<img alt="You?" align="center" src="https://joeschmoe.io/api/v1/random" width="100">](https://github.com/fieldceleste/capstone-itinerizeMe/master/Contributing.md) |
@@ -232,17 +245,22 @@ npm run start
 | 🔥                                               |                                                  |
 
 
+</div>
 
  [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#contact)
  
- <p align="center"><a name="contact"><span style="color: #facf5a; font-family: Marker Felt, fantasy; font-size: 1.5em;">Contact ✉️</span></a></p>
+<p align="center"><a name="contact">
+<img src="./public/contact.png">
+</p></a>
 
 
  * Questions or concerns? Please contact fieldceleste@gmail.com 
 
  [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#license)
 
-<p align="center"><a name="contact"><span style="color: #facf5a; font-family: Marker Felt, fantasy; font-size: 1.5em;">License 📒</span></a></p>
+<p align="center"><a name="contact">
+<img src="./public/license.png">
+</p></a>
 
  
  + Licensed under [MIT](https://opensource.org/licenses/MIT).
