@@ -1,5 +1,5 @@
 <p align="center"> 
-<img src="./public/logo.png">
+<img src="./public//Readme/logo.png">
 </p>
 
 
@@ -19,7 +19,7 @@
 [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#project-description)
 
 <p align="center">
-<img src="./public/table.png">
+<img src="./public/Readme/table.png">
 </p>
 
 
@@ -47,14 +47,14 @@
 [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#description)
 
 <p align="center"><a name="description">
-<img src="./public/description.png">
+<img src="./public/Readme/description.png">
 </p></a>
 
 __This dynamic site is intended for the traveler who can never decide what to do with their day. It allows the user to enter in their travel dates and location and be able to get a curated day by day trip plan using the Triposo API. They are able to login and add different trips to their list and save them to the database. They will be able to see each location on a Google map to know exactly where they are going each day.__
 [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#product-roadmap)
 
 <p align="center"><a name="product-roadmap">
-<img src="./public/road.png">
+<img src="./public/Readme/road.png">
 </p></a>
 
  + Project Mission & Summary
@@ -80,7 +80,7 @@ __This dynamic site is intended for the traveler who can never decide what to do
 [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#known-bugs)
 
 <p align="center"><a name="known-bugs">
-<img src="./public/bugs.png">
+<img src="./public/Readme/bugs.png">
 </p></a>
 
 <p align="center"> No known bugs at this time. </center></p>
@@ -88,7 +88,7 @@ __This dynamic site is intended for the traveler who can never decide what to do
 [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#user-stories)
 
 <p align="center"><a name="user-stories">
-<img src="./public/book.png">
+<img src="./public/Readme/book.png">
 </p></a>
 
 _Main users are travelers abroad who are unfamiliar with the cities on their agenda, students who are new to their campus town, locals who just want to explore their own city and business travelers who only have a short amount of time to explore._
@@ -110,7 +110,7 @@ _Main users are travelers abroad who are unfamiliar with the cities on their age
  [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#minimal-viable-product)
 
 <p align="center"><a name="minimal-viable-product">
-<img src="./public/mvp.png">
+<img src="./public/Readme/mvp.png">
 </p></a>
 
  * Website is in portfolio ready state, with designs working as intended. 
@@ -124,7 +124,7 @@ _Main users are travelers abroad who are unfamiliar with the cities on their age
  [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#specs)
 
 <p align="center"><a name="specs">
-<img src="./public/specs.png">
+<img src="./public/Readme/specs.png">
 </p></a>
 
  | Spec | Input | Output |
@@ -135,14 +135,14 @@ enter in specs when complete
 [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#component-diagram)
 
 <p align="center"><a name="component-diagram">
-<img src="./public/comp.png">
+<img src="./public/Readme/comp.png">
 </p></a>
  images here 
 
 [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#screenshots)
 
 <p align="center"><a name="screenshots">
-<img src="./public/visual.png">
+<img src="./public/Readme/visual.png">
 </p></a>
 
 images here when complete
@@ -150,7 +150,7 @@ images here when complete
 [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#prerequisites)
 
 <p align="center"><a name="prerequisites">
-<img src="./public/pre.png">
+<img src="./public/Readme/pre.png">
 </p></a>
 
    * Download a code editor, such as Visual Code studio, Atom, Sublime Text. 
@@ -165,7 +165,7 @@ images here when complete
 [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#installation)
 
 <p align="center"><a name="installation">
-<img src="./public/install.png">
+<img src="./public/Readme/install.png">
 </p></a>
 
 1. Open Terminal (macOS) or PowerShell (Windows)
@@ -201,7 +201,7 @@ npm run build
 npm run start
 ```
 <p align="center"><a name="deployed-website">
-<img src="./public/deploy.png">
+<img src="./public/Readme/deploy.png">
 </p></a>
 
  * Use can find deployed website by the provided link [here]()  
@@ -210,13 +210,15 @@ npm run start
 [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#technology)
 
 <p align="center"><a name="technology">
-<img src="./public/tech.png">
+<img src="./public/Readme/tech.png">
 </p></a>
 
 + React
    - React Bootstrap
    - React Redux
    - React Router
+   - Google Map React
+   - Mobx React
  
  + JavaScript
  + JSON
@@ -227,21 +229,22 @@ npm run start
  + Redux
  + Triposo API
  + Git/Github
- 
+ + Mobx
+ + Moment
 
  [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#contributors)
 
 <p align="center"><a name="contributors">
-<img src="./public/hand.png">
+<img src="./public/Readme/hand.png">
 </p></a>
 
 
 <div class ="center">
 
 
-| [<img alt="Celeste Field" align="center" src="./public/self.png" width="100">](https://www.linkedin.com/in/celestefield/) | [<img alt="You?" align="center" src="https://joeschmoe.io/api/v1/random" width="100">](https://github.com/fieldceleste/capstone-itinerizeMe/master/Contributing.md) |
+| [<img alt="Celeste Field" align="center" src="./public/Readme/self.png" width="100">](https://www.linkedin.com/in/celestefield/) | [<img alt="You?" align="center" src="https://joeschmoe.io/api/v1/random" width="100">](https://github.com/fieldceleste/capstone-itinerizeMe/master/Contributing.md) |
 |:--------------------------------------------------:|:--------------------------------------------------:|
-| [Celeste Field](https://www.linkedin.com/in/celestefield) | [You?](https://github.com/fieldceleste/capstone-itinerizeMe/master/Contributing.md) |
+| [Celeste Field](https://www.linkedin.com/in/celestefield) | [You?](https://github.com/fieldceleste/capstone-itinerizeMe/Contributing.md) |
 | 🔥                                               |                                                  |
 
 
@@ -250,7 +253,7 @@ npm run start
  [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#contact)
  
 <p align="center"><a name="contact">
-<img src="./public/contact.png">
+<img src="./public/Readme/contact.png">
 </p></a>
 
 
@@ -259,7 +262,7 @@ npm run start
  [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#license)
 
 <p align="center"><a name="contact">
-<img src="./public/license.png">
+<img src="./public/Readme/license.png">
 </p></a>
 
  

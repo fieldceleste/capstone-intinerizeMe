@@ -1,0 +1,21 @@
+@import "./../../scss/variables";
+
+
+.App-header {
+  background: url("./img/backgroundImage.jpg"); 
+  background: 
+              
+              linear-gradient(
+                  to right,
+              rgba(0, 0, 0, 0.75), 
+              rgba(0, 0, 0, 0.09)
+              ),
+              /* bottom, image */
+              url("./img/backgroundImage.jpg");
+              height: 100vh;
+}
+
+.default {
+  color: $white;
+}
+
