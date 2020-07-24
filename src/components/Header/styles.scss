@@ -1,12 +1,28 @@
-@import "./../../scss/variables";
+// @import "./../../scss/variables";
 
-// .App-header {
-//   background-size: cover;
-//   background-repeat: no-repeat;
-//   background-position: top center;
-//   // background: url("./img/headerbg.jpg"); 
-//   height: 1000vh;
-// }
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+
+#root > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
+
+#root > div > svg {
+  width: 500px;
+}
+
 
 .default {
   color: rgb(254, 254, 254);
