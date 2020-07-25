@@ -3,7 +3,7 @@ import './containers/App.scss';
 import BackgroundSlider from 'react-background-slider'
 // import GlobalStyle from './styles/Global';
 import Navbar from "./components/Nav/Navbar";
-import HeaderWord from './components/Header/HeaderWord';
+import Card from './components/Header/HeaderWord';
 
 
 
@@ -38,22 +38,18 @@ class App extends Component {
   handleNavbar = () => {
     this.setState({ navbarOpen: !this.state.navbarOpen });
   }
-
-
+  
   render() 
   {
     return (
      
       <>
-    <HeaderWord />
-     
-      
       <Navbar 
           navbarState={this.state.navbarOpen} 
           handleNavbar={this.handleNavbar}
         />
        {/* <GlobalStyle /> */}
-    
+       <Card />
        
         <BackgroundSlider className= "images2"
   images={[rome,amsterdam,austin,australia,costa,dubi,effiel,egypt,iceland,italy,japan,japan2, london, moscow,paris,peru, peters, petra, portland,york,rio,santorini]}
