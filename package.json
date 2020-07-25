@@ -8,6 +8,8 @@
     "@testing-library/user-event": "^7.2.1",
     "babel-eslint": "^10.1.0",
     "classnames": "^2.2.6",
+    "framer": "^1.2.5",
+    "framer-motion": "^2.1.4",
     "google-map-react": "^1.1.7",
     "mobx": "^5.15.4",
     "mobx-react": "^6.2.2",
@@ -21,6 +23,7 @@
     "react-router-dom": "^5.2.0",
     "react-scripts": "3.4.1",
     "react-spring": "^8.0.27",
+    "react-text-loop": "^2.3.0",
     "styled-components": "^5.1.1"
   },
   "scripts": {

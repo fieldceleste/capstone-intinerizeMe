@@ -1,7 +1,9 @@
 import React , { Component } from 'react';
-import Header from './components/Header/Header';
 import './containers/App.scss';
 import BackgroundSlider from 'react-background-slider'
+// import GlobalStyle from './styles/Global';
+import Navbar from "./components/Nav/Navbar";
+import HeaderWord from './components/Header/HeaderWord';
 
 
 
@@ -29,18 +31,37 @@ import rio from './components/Header/img/rio.jpg'
 import york from './components/Header/img/york.jpg'
 
 class App extends Component {
-  render() {
+  state = {
+    navbarOpen: false
+  }
+
+  handleNavbar = () => {
+    this.setState({ navbarOpen: !this.state.navbarOpen });
+  }
+
+
+  render() 
+  {
     return (
-      <div className="App">
-      <Header/>
-      <div className="images">
-        <BackgroundSlider
+     
+      <>
+    <HeaderWord />
+     
+      
+      <Navbar 
+          navbarState={this.state.navbarOpen} 
+          handleNavbar={this.handleNavbar}
+        />
+       {/* <GlobalStyle /> */}
+    
+       
+        <BackgroundSlider className= "images2"
   images={[rome,amsterdam,austin,australia,costa,dubi,effiel,egypt,iceland,italy,japan,japan2, london, moscow,paris,peru, peters, petra, portland,york,rio,santorini]}
   duration={4} 
   transition={2} />
-     </div>
-  
-      </div>
+   
+    
+      </>
     );
   }
 }
