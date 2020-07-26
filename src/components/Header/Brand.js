@@ -7,7 +7,6 @@ const Brand = () => {
  
   return (
     <Image src={logo} alt="Company Logo" />
-
   )
 }
 

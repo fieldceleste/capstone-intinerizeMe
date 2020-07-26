@@ -17,8 +17,8 @@ const CollapseMenu = (props) => {
       }}
       >
         <NavLinks>
-          <li><a href="/" onClick={props.handleNavbar}>Login</a></li>
-          <li><a href="/" onClick={props.handleNavbar}>link n2</a></li>
+          <li><a href="/signin" onClick={props.handleNavbar}>Sign-In</a></li>
+          <li><a href="/" onClick={props.handleNavbar}>Sign Out</a></li>
         
         </NavLinks>
       </CollapseWrapper>

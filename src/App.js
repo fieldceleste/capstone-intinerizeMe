@@ -1,9 +1,13 @@
-import React , { Component } from 'react';
+import React , { useState } from 'react';
 import './containers/App.scss';
 import BackgroundSlider from 'react-background-slider'
 // import GlobalStyle from './styles/Global';
-import Navbar from "./components/Nav/Navbar";
-import Card from './components/Header/HeaderWord';
+import {Navbar}from "./components/Header/Navbar";
+import { Card } from './components/Header/Header';
+import firebase from './firebase';
+import 'firebase/auth';
+import { BrowserRouter as Router} from "react-router-dom";
+import TripController from './TripController';
 
 
 
@@ -30,36 +34,77 @@ import santorini from './components/Header/img/santorini.jpg'
 import rio from './components/Header/img/rio.jpg'
 import york from './components/Header/img/york.jpg'
 
-class App extends Component {
-  state = {
-    navbarOpen: false
-  }
+function App(){
+  const [isSignedIn, setIsSignedIn] = useState(false);
+  const [userEmail, setUserEmail] = useState("New User");
+  const [userName, setUserName] = useState("New User");
+  const [currentUserId, setCurrentUserId] = useState(null);
+  const [navbarOpen, setNavBarOpen] = useState(false);
 
-  handleNavbar = () => {
-    this.setState({ navbarOpen: !this.state.navbarOpen });
+  // state = {
+  //   navbarOpen: false
+  // }
+  let provider = new firebase.auth.GoogleAuthProvider();
+
+
+  firebase.auth().onAuthStateChanged(function(user) {
+    if (user) {
+      setUserName(user.displayName);
+      setUserEmail(user.email);
+      setIsSignedIn(true);
+      setCurrentUserId(user.uid);
+      setNavBarOpen(true)
+    } else {
+      setIsSignedIn(false);
+    }
+  });
+
+  const googleSignin = () => {
+    firebase.auth().signInWithRedirect(provider).then(function(result) {
+      setIsSignedIn(true);
+    }).catch(function(error) {
+      console.log(error);
+    });
   }
   
-  render() 
-  {
+
+  // handleNavbar = () => {
+  //   this.setState({ navbarOpen: !this.state.navbarOpen });
+  // }
+  
+ 
     return (
-     
-      <>
-      <Navbar 
-          navbarState={this.state.navbarOpen} 
-          handleNavbar={this.handleNavbar}
-        />
-       {/* <GlobalStyle /> */}
-       <Card />
-       
+      <div className='container'>
+     <Router>
         <BackgroundSlider className= "images2"
   images={[rome,amsterdam,austin,australia,costa,dubi,effiel,egypt,iceland,italy,japan,japan2, london, moscow,paris,peru, peters, petra, portland,york,rio,santorini]}
   duration={4} 
   transition={2} />
-   
-    
-      </>
+        <Navbar
+          userSignInStatus={isSignedIn} 
+          userName={userName}
+          navbarState={navbarOpen}
+          // handleNavbar={handleNavbar}
+        />
+         <Card />
+         <TripController 
+          googleSignin={googleSignin}
+          currentUserId={currentUserId} 
+          userSignInStatus={isSignedIn} 
+          userName={userName} 
+          userEmail={userEmail}
+        />  
+   </Router>
+   </div>
     );
   }
-}
+
 
 export default App;
+
+
+{/* <Navbar 
+navbarState={this.state.navbarOpen} 
+handleNavbar={this.handleNavbar}
+/> */}
+  {/* <GlobalStyle /> */}

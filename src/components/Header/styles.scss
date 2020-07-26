@@ -28,6 +28,8 @@ body,
   will-change: transform, opacity;
 }
 
+
+
 .front,
 .back {
   background-size: cover;
@@ -38,7 +40,12 @@ body,
   border:5px white solid;
 }
 
-// .front {
-//   background-image: url();
-// }
+.front {
+  background-image: url("./img/logolarge.png");
+  border:5px white solid;
+}
+
+.sigin{
+  margin-left:50%;
+}
 

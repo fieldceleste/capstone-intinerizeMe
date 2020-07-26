@@ -1,12 +1,27 @@
 import React from 'react'
 import styled from "styled-components";
 import { useSpring, animated, config } from "react-spring";
+import firebase from '../../firebase';
+import PropTypes from 'prop-types';
+import './styles.scss'
 
 import Logo from "./Brand";
 import BurgerMenu from "./BurgerMenu";
 import CollapseMenu from "./CollapseMenu";
 
-const Navbar = (props) => {
+
+
+export function Navbar(props) {
+  const {userSignInStatus} = props;
+
+  function doSignOut(){
+    firebase.auth().signOut().then(function(){
+      console.log('Successfully signed out!');
+    }).catch((error) => {
+      console.log(error.message);
+    })
+  }
+
   const barAnimation = useSpring({
     from: { transform: 'translate3d(0, -10rem, 0)' },
     transform: 'translate3d(0, 0, 0)',
@@ -19,16 +34,38 @@ const Navbar = (props) => {
     config: config.wobbly,
   });
 
+  const setVisibility = () => {
+    if (userSignInStatus) {
+      return (
+        <React.Fragment>
+          <NavLinks style={linkAnimation}>
+          <a to="/trips">My Trips</a>
+          <a to='/newtrip'>Add Trip</a>
+          <a exact={false} onClick={() => doSignOut()} to='vasya'>Sign out</a>
+          </NavLinks>
+        </React.Fragment>
+      )
+    } else {
   return (
-    <>
-      <NavBar style={barAnimation}>
-        <FlexContainer>
+    <React.Fragment>
+          <NavLinks style={linkAnimation}>
+            <a href="/signin">Signin</a>
+          </NavLinks>
+   </React.Fragment>
+   )
+  }
+ }
+
+return (
+  <React.Fragment>
+  <div className="header">
+    <NavBar style={barAnimation}>
+         <FlexContainer>
           <Logo />
           <NavLinks style={linkAnimation}>
-            <a href="/login">Login</a>
-            <a href="/">Main Menu</a>
-           
+          <a href="/">Home</a>
           </NavLinks>
+          {setVisibility()} 
           <BurgerWrapper>
             <BurgerMenu
               navbarState={props.navbarState} 
@@ -41,11 +78,23 @@ const Navbar = (props) => {
         navbarState={props.navbarState} 
         handleNavbar={props.handleNavbar}
       />
-   </>
-  )
+    
+    </div>
+</React.Fragment>
+ )
 }
 
-export default Navbar
+Navbar.propTypes = {
+  userSignInStatus: PropTypes.bool,
+  userName: PropTypes.string,
+}
+
+
+
+
+
+
+
 
 const NavBar = styled(animated.nav)`
   position: fixed;
@@ -95,4 +144,4 @@ const BurgerWrapper = styled.div`
   @media (min-width: 769px) {
     display: none;
   }
-`;
+  `;
