@@ -3,7 +3,7 @@ import './containers/App.scss';
 import BackgroundSlider from 'react-background-slider'
 // import GlobalStyle from './styles/Global';
 import { Navbar }from "./components/Header/Navbar";
-import { Card } from './components/Header/Header';
+import { Card } from './components/Header/Card';
 // import firebase from './firebase';
 // import 'firebase/auth';
 // import { BrowserRouter as Router} from "react-router-dom";
