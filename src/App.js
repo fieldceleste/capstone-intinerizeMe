@@ -1,16 +1,16 @@
-import React , { useState } from 'react';
+import React, {Component} from 'react';
 import './containers/App.scss';
 import BackgroundSlider from 'react-background-slider'
 // import GlobalStyle from './styles/Global';
-import {Navbar}from "./components/Header/Navbar";
+import { Navbar }from "./components/Header/Navbar";
 import { Card } from './components/Header/Header';
-import firebase from './firebase';
-import 'firebase/auth';
-import { BrowserRouter as Router} from "react-router-dom";
-import TripController from './TripController';
+// import firebase from './firebase';
+// import 'firebase/auth';
+// import { BrowserRouter as Router} from "react-router-dom";
+// import TripController from './TripController';
 
 
-
+// background images
 import rome from './components/Header/img/rome.jpg'
 import amsterdam from './components/Header/img/amsterdam.jpg'
 import austin from './components/Header/img/austin.jpg'
@@ -34,77 +34,111 @@ import santorini from './components/Header/img/santorini.jpg'
 import rio from './components/Header/img/rio.jpg'
 import york from './components/Header/img/york.jpg'
 
-function App(){
-  const [isSignedIn, setIsSignedIn] = useState(false);
-  const [userEmail, setUserEmail] = useState("New User");
-  const [userName, setUserName] = useState("New User");
-  const [currentUserId, setCurrentUserId] = useState(null);
-  const [navbarOpen, setNavBarOpen] = useState(false);
-
-  // state = {
-  //   navbarOpen: false
-  // }
-  let provider = new firebase.auth.GoogleAuthProvider();
 
 
-  firebase.auth().onAuthStateChanged(function(user) {
-    if (user) {
-      setUserName(user.displayName);
-      setUserEmail(user.email);
-      setIsSignedIn(true);
-      setCurrentUserId(user.uid);
-      setNavBarOpen(true)
-    } else {
-      setIsSignedIn(false);
-    }
-  });
 
-  const googleSignin = () => {
-    firebase.auth().signInWithRedirect(provider).then(function(result) {
-      setIsSignedIn(true);
-    }).catch(function(error) {
-      console.log(error);
-    });
+class App extends Component {
+ constructor(props) {
+   super(props);
+   this.state = {
+     navbarOpen: false,
+   }
+ }
+
+  handleNavbar = () => {
+    this.setState({ navbarOpen: !this.state.navbarOpen });
   }
   
-
-  // handleNavbar = () => {
-  //   this.setState({ navbarOpen: !this.state.navbarOpen });
-  // }
   
- 
+ render() {
     return (
-      <div className='container'>
-     <Router>
+    
+    //  <Router>
+       <div className='app'>
+        
         <BackgroundSlider className= "images2"
   images={[rome,amsterdam,austin,australia,costa,dubi,effiel,egypt,iceland,italy,japan,japan2, london, moscow,paris,peru, peters, petra, portland,york,rio,santorini]}
   duration={4} 
   transition={2} />
+        <Card />
         <Navbar
-          userSignInStatus={isSignedIn} 
-          userName={userName}
-          navbarState={navbarOpen}
-          // handleNavbar={handleNavbar}
+         navbarState={this.state.navbarOpen} 
+         handleNavbar={this.handleNavbar}
         />
-         <Card />
-         <TripController 
-          googleSignin={googleSignin}
-          currentUserId={currentUserId} 
-          userSignInStatus={isSignedIn} 
-          userName={userName} 
-          userEmail={userEmail}
-        />  
-   </Router>
-   </div>
+        </div>
+    //  </Router>
+
     );
   }
+}
 
 
 export default App;
 
 
-{/* <Navbar 
-navbarState={this.state.navbarOpen} 
-handleNavbar={this.handleNavbar}
-/> */}
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   {/* <GlobalStyle /> */}
+
+
+  // function App(){
+//   const [isSignedIn, setIsSignedIn] = useState(false);
+//   const [userEmail, setUserEmail] = useState("New User");
+//   const [userName, setUserName] = useState("New User");
+//   const [currentUserId, setCurrentUserId] = useState(null);
+//   const [navbarOpen, setNavBarOpen] = useState(false);
+
+
+// userSignInStatus={isSignedIn} 
+// userName={userName}
+// navbarState={navbarOpen}
+// handleNavbar={handleNavbar}
+
+{/* <TripController 
+googleSignin={googleSignin}
+currentUserId={currentUserId} 
+userSignInStatus={isSignedIn} 
+userName={userName} 
+userEmail={userEmail}
+/>   */}
+
+// provider = new firebase.auth.GoogleAuthProvider();
+
+// const firebase.auth().onAuthStateChanged(function(user) {
+//   if (user) {
+//     setUserName(user.displayName);
+//     setUserEmail(user.email);
+//     setIsSignedIn(true);
+//     setCurrentUserId(user.uid);
+//   } else {
+//     setIsSignedIn(false);
+//   }
+// });
+
+// const googleSignin = () => {
+//   firebase.auth().signInWithRedirect(provider).then(function(result) {
+//     setIsSignedIn(true);
+//   }).catch(function(error) {
+//     console.log(error);
+//   });
+// }

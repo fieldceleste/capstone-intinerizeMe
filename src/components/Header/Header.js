@@ -1,27 +1,59 @@
 import React, {useState} from "react";
+import { useSpring, animated as a } from 'react-spring'
 import './styles.scss'
 // import Nav from './Navbar'
 // import {NavLink} from 'react-router-dom';
 // import firebase from '../../firebase';
 // import PropTypes from 'prop-types';
-import { useSpring, animated as a } from 'react-spring'
 
 
 
 export function Card() {
-    const [flipped, set] = useState(false)
-    const { transform, opacity } = useSpring({
-      opacity: flipped ? 1 : 0,
-      transform: `perspective(600px) rotateX(${flipped ? 180 : 0}deg)`,
-      config: { mass: 5, tension: 500, friction: 80 }
-    })
-    return (
-      <div onClick={() => set(state => !state)}>
-        <a.div class="c back" style={{ opacity: opacity.interpolate(o => 1 - o), transform }} />
-        <a.div class="c front" style={{ opacity, transform: transform.interpolate(t => `${t} rotateX(180deg)`) }} />
-      </div>
-    )
-  }
+  const [flipped, set] = useState(false)
+  const { transform, opacity } = useSpring({
+    opacity: flipped ? 1 : 0,
+    transform: `perspective(600px) rotateX(${flipped ? 180 : 0}deg)`,
+    config: { mass: 5, tension: 500, friction: 80 }
+  })
+  return (
+    <div onClick={() => set(state => !state)}>
+      <a.div class="c back" style={{ opacity: opacity.interpolate(o => 1 - o), transform }} />
+      <a.div class="c front" style={{ opacity, transform: transform.interpolate(t => `${t} rotateX(180deg)`) }} />
+    </div>
+  )
+}
+  // export default Card;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 //----------------------------------------------------------------->
   // export function Header(props){
   //   // const {userSignInStatus} = props;
@@ -63,24 +95,4 @@ export function Card() {
   //   userName: PropTypes.string,
   // }
  
-
-
-
-
-
-
-
-
-{/* <div className="header">
-          <a href="#default" className="logo"></a>
-          <div className="header-right">
-            <NavLink exact={true} to='/'>Home</NavLink>
-            <NavLink to='/bikes'>Bikes</NavLink>
-            <NavLink to='/parts'>Parts</NavLink>
-            <NavLink to='/accessories'>Accessories</NavLink>
-           
-          </div>
-        </div> */}
-
-//   export default Card;
 
