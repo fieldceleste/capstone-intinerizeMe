@@ -6,27 +6,27 @@ export default class Origin extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      origin: null
+      source: null
     };
   }
 
   componentDidMount() {
-    this.fetchSource(this.props.origin);
+    this.fetchSource(this.props.source);
   }
 
-  fetchOrigin(origin) {
-    requestApi(`source.json?id=${origin.origin_id}`).then(json => {     //may need to switch back to source
+  fetchOrigin(source) {
+    requestApi(`source.json?id=${source.source_id}`).then(json => {    
       let result = json.results[0];
-      result.attribution_link = origin.url;
-      this.setState({ origin: result });
+      result.attribution_link = source.url;
+      this.setState({ source: result });
     });
   }
 
   render() {
     return (
-      <div className="origin">
-        {this.state.origin
-          ? <Attribution origin={this.state.origin} />
+      <div className="source">
+        {this.state.source
+          ? <Attribution source={this.state.source} />
           : <span>Loading...</span>}
       </div>
     );

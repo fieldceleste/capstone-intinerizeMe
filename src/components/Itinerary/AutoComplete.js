@@ -30,10 +30,10 @@ export default class AutoComplete extends React.Component {
     };
   }
 
-  fetchLocations(t) {
+  fetchLocations(table) {
     let include = "id,name,country_id";
     let url = `location.json?annotate=trigram:${encodeURIComponent(
-      t
+      table
     )}&trigram=>0.25&fields=${include}&order_by=-score&count=10`;
     requestApi(url).then(
       response => {

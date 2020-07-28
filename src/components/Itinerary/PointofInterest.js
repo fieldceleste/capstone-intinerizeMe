@@ -1,7 +1,7 @@
 import React from "react";
 
 import LoadingDisplay from "./LoadingDisplay";
-import Piece from "./Piece";
+import ArticleItem from "./ArticleItem";
 import Origin from "./Origin";
 
 import { requestApi } from "../ApiController";
@@ -12,17 +12,17 @@ export default class PointofInterest extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      pointofinterest: null
+      poi: null
     };
   }
 
   componentDidMount() {
     requestApi (
-      `pointofinterest.json?id=${this.props
-        .PointofInterestId}&fields=name,id,content,score,booking_info`
+      `poi.json?id=${this.props
+        .poiId}&fields=name,id,content,score,booking_info`
     )
       .then(json => {
-        this.setState({ pointofinterest: json.results[0] });
+        this.setState({ poi: json.results[0] });
       })
       .catch(rejected => {
         console.log("REJECTED: ", rejected);
@@ -32,7 +32,7 @@ export default class PointofInterest extends React.Component {
   render() {
     return (
       <div>
-        {this.state.pointofinterest ? <PointofInterestBody pointofinterest={this.state.pointofinterest} /> : <LoadingDisplay />}
+        {this.state.poi ? <PointofInterestBody poi={this.state.poi} /> : <LoadingDisplay />}
       </div>
     );
   }
@@ -51,25 +51,25 @@ class PointofInterestBody extends React.Component {
   }
 
   render() {
-    const { pointofinterest } = this.props;
+    const { poi } = this.props;
 
     return (
-      <div className={this.state.visible ? "point of interest visible" : "pointofinterest"}>
+      <div className={this.state.visible ? "poi visible" : "poi"}>
         <h1>
-          {pointofinterest.name}
-          {pointofinterest.booking_info
+          {poi.name}
+          {poi.booking_info
             ? <a
                 className="action-book"
-                href={pointofinterest.booking_info.vendor_object_url}
+                href={poi.booking_info.vendor_object_url}
                 target="_blank"
               >
                 Book
               </a>
             : ""}
         </h1>
-        <Piece sections={pointofinterest.content.sections} />
-        {pointofinterest.content.attribution
-          ? <Origin sources={pointofinterest.content.attribution} />
+        <ArticleItem sections={poi.content.sections} />
+        {poi.content.attribution
+          ? <Origin sources={poi.content.attribution} />
           : ""}
       </div>
     );

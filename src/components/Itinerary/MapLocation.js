@@ -9,13 +9,13 @@ class MapLocation extends React.Component {
       "info-marker": true,
       "number-marker-primary": this.props.primary ? true : false,
       [`color-marker-${this.props.color}`]: true,
-      "marker-active": this.props.pointofintreset.hover || this.props.$hover
+      "marker-active": this.props.poi.hover || this.props.$hover
     });
 
     return (
       <div className={controls}>
         <h2>
-          {this.props.pointofintreset.name}
+          {this.props.poi.name}
         </h2>
         <div>
           {this.props.number}

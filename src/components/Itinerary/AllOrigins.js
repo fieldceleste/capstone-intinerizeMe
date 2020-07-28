@@ -5,10 +5,10 @@ export default class AllOrigins extends React.Component {
 
 
   render() {
-    const {origins} = this.props
+    const {sources} = this.props
     return (
-      <div className="origins">
-        {origins.map((origin, n) => <Origin key={'origin-'+n} className="origin" origin={origin} />)}
+      <div className="sources">
+        {sources.map((source, n) => <Origin key={'source-'+n} className="source" source={source} />)}
       </div>
     )
   }
