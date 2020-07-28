@@ -32,7 +32,7 @@ class PlannerMap extends React.Component {
       });
     });
 
-    let b = store.getBounds();
+    let b = store.getArea();
     let bounds = fitBounds(
       {
         nw: { lat: b.maxLat, lng: b.minLng },

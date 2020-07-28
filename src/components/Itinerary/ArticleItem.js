@@ -1,5 +1,5 @@
 import React from "react";
-// import TriposoImage from "./TriposoImage";
+import RenderImage from "./RenderImage";
 import "../style/articleitem.css";
 
 export default class ArticleItem extends React.Component {
@@ -22,7 +22,7 @@ class ArticleItem extends React.Component {
     return (
       <div className="article-item">
         {item.title ? <h2>{item.title}</h2> : ""}
-        {/* {item.image ? <TriposoImage image={item.image} /> : ""} */}
+        {item.image ? <RenderImage image={item.image} /> : ""}
         {item.body ? <p dangerouslySetInnerHTML={{ __html: item.body }} /> : ""}
       </div>
     );
