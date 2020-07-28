@@ -1,13 +1,22 @@
 import React, {Component} from 'react';
 import './containers/App.scss';
 import BackgroundSlider from 'react-background-slider'
+import { BrowserRouter as Router, Route } from "react-router-dom";
+import MainController from '.Itinerary/controllers/MainController';
 // import GlobalStyle from './styles/Global';
 import { Navbar }from "./components/Header/Navbar";
 import { Card } from './components/Header/Card';
+import ConfigurationContainer from ".components/containers/ConfigurationContainer";
+import ItineraryContainer from ".components/containers/ItineraryContainer";
 // import firebase from './firebase';
 // import 'firebase/auth';
 // import { BrowserRouter as Router} from "react-router-dom";
 // import TripController from './TripController';
+
+import "./style/Main.css";
+import "./style/FontStyle.css";
+import "./style/GoogleMap.css";
+import "./style/UserInterface.css";
 
 
 // background images
@@ -42,6 +51,7 @@ class App extends Component {
    super(props);
    this.state = {
      navbarOpen: false,
+     
    }
  }
 

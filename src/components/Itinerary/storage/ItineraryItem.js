@@ -1,7 +1,7 @@
 import { extendObservable } from "mobx";
 import PointofInterest from "./PointofInterest";
 
-export default class ItineraryItemController {
+export default class ItineraryItem {
   constructor(json = null) {
     extendObservable(this, {
       poi: null,

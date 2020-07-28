@@ -1,8 +1,8 @@
 import { extendObservable, computed } from "mobx";
-import LocationController from "./LocationController";
+import Location from "./Location";
 import { requestApi } from "../ApiController";
 
-export default class PoiController {
+export default class PointofInterest {
   constructor(json = null) {
     extendObservable(this, {
       id: null,

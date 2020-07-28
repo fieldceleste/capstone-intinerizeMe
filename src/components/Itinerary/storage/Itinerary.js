@@ -1,8 +1,8 @@
 import { extendObservable, computed } from "mobx";
 import { leadingZero, monthName } from "../ApiControls";
-import ItineraryItemController from "./ItineraryItemController";
+import ItineraryItem from "./ItineraryItem";
 
-export default class ItineraryController {
+export default class Itinerary{
   date = null;
   index = 0;
 
@@ -35,7 +35,7 @@ export default class ItineraryController {
     this.date = new Date(json.date);
     this.items.clear();
     json.itinerary_items.forEach(item => {
-      let dayPlanItem = new ItineraryItemController(item);
+      let dayPlanItem = new ItineraryItem(item);
       this.items.push(dayPlanItem);
     });
   }

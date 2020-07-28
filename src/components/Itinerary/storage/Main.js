@@ -1,7 +1,7 @@
 import { extendObservable, action, computed } from "mobx";
 import { requestApi, leadingZero } from "../ApiController";
 
-import ItineraryController from "./ItineraryController";
+import Itinerary from "./Itinerary";
 
 export default class MainController {
   constructor() {
@@ -56,7 +56,7 @@ export default class MainController {
         this.dayplanLoading = false;
         if (json.results && json.results.length) {
           json.results[0].days.forEach((p, n) => {
-            this.plan.push(new ItineraryController(n, p));
+            this.plan.push(new Itinerary(n, p));
           });
         }
       }),
