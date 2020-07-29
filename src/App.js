@@ -1,47 +1,50 @@
 import React, {Component} from 'react';
-import './containers/App.scss';
-import BackgroundSlider from 'react-background-slider'
+// import './containers/App.scss';
+// import BackgroundSlider from 'react-background-slider'
 import { BrowserRouter as Router, Route } from "react-router-dom";
-import MainController from '.Itinerary/controllers/MainController';
+import Store from "./store/Store";
+
 // import GlobalStyle from './styles/Global';
-import { Navbar }from "./components/Header/Navbar";
-import { Card } from './components/Header/Card';
-import ConfigurationContainer from ".components/containers/ConfigurationContainer";
-import ItineraryContainer from ".components/containers/ItineraryContainer";
+// import { Navbar }from "./components/Header/Navbar";
+// import { Card } from './components/Header/Card';
+
+
+import ConfigurationContainer from "./ConfigurationContainer";
+import DayplannerContainer from "./DayplannerContainer";
 // import firebase from './firebase';
 // import 'firebase/auth';
-// import { BrowserRouter as Router} from "react-router-dom";
 // import TripController from './TripController';
 
-import "./style/Main.css";
-import "./style/FontStyle.css";
-import "./style/GoogleMap.css";
-import "./style/UserInterface.css";
+// Itinerary styles
+import "./style/core.css";
+import "./style/typography.css";
+import "./style/map.css";
+import "./style/ui.css";
 
 
 // background images
-import rome from './components/Header/img/rome.jpg'
-import amsterdam from './components/Header/img/amsterdam.jpg'
-import austin from './components/Header/img/austin.jpg'
-import australia from './components/Header/img/australia.jpg'
-import costa from './components/Header/img/costa.jpg'
-import dubi from './components/Header/img/dubi.jpg'
-import effiel from './components/Header/img/effiel.jpg'
-import egypt from './components/Header/img/egypt.jpg'
-import iceland from './components/Header/img/iceland.jpg'
-import italy from './components/Header/img/italy.jpg'
-import japan from './components/Header/img/japan.jpg'
-import japan2 from './components/Header/img/japan2.jpg'
-import london from './components/Header/img/london.jpg'
-import moscow from './components/Header/img/moscow.jpg'
-import paris from './components/Header/img/paris.jpg'
-import peru from './components/Header/img/peru.jpg'
-import peters from './components/Header/img/peters.jpg'
-import petra from './components/Header/img/petra.jpg'
-import portland from './components/Header/img/portland.jpg'
-import santorini from './components/Header/img/santorini.jpg'
-import rio from './components/Header/img/rio.jpg'
-import york from './components/Header/img/york.jpg'
+// import rome from './components/Header/img/rome.jpg'
+// import amsterdam from './components/Header/img/amsterdam.jpg'
+// import austin from './components/Header/img/austin.jpg'
+// import australia from './components/Header/img/australia.jpg'
+// import costa from './components/Header/img/costa.jpg'
+// import dubi from './components/Header/img/dubi.jpg'
+// import effiel from './components/Header/img/effiel.jpg'
+// import egypt from './components/Header/img/egypt.jpg'
+// import iceland from './components/Header/img/iceland.jpg'
+// import italy from './components/Header/img/italy.jpg'
+// import japan from './components/Header/img/japan.jpg'
+// import japan2 from './components/Header/img/japan2.jpg'
+// import london from './components/Header/img/london.jpg'
+// import moscow from './components/Header/img/moscow.jpg'
+// import paris from './components/Header/img/paris.jpg'
+// import peru from './components/Header/img/peru.jpg'
+// import peters from './components/Header/img/peters.jpg'
+// import petra from './components/Header/img/petra.jpg'
+// import portland from './components/Header/img/portland.jpg'
+// import santorini from './components/Header/img/santorini.jpg'
+// import rio from './components/Header/img/rio.jpg'
+// import york from './components/Header/img/york.jpg'
 
 
 
@@ -51,6 +54,7 @@ class App extends Component {
    super(props);
    this.state = {
      navbarOpen: false,
+     store: new Store()
      
    }
  }
@@ -63,21 +67,27 @@ class App extends Component {
  render() {
     return (
     
-    //  <Router>
+     <Router>
        <div className='app'>
         
-        <BackgroundSlider className= "images2"
+        {/* <BackgroundSlider className= "images2"
   images={[rome,amsterdam,austin,australia,costa,dubi,effiel,egypt,iceland,italy,japan,japan2, london, moscow,paris,peru, peters, petra, portland,york,rio,santorini]}
   duration={4} 
-  transition={2} />
-        <Card />
-        <Navbar
+  transition={2} /> */}
+        {/* <Card /> */}
+        {/* <Navbar
          navbarState={this.state.navbarOpen} 
          handleNavbar={this.handleNavbar}
-        />
-        </div>
-    //  </Router>
+        /> */}
 
+         <Route exact path="/addtrip"render={() => <ConfigurationContainer store={this.state.store} />}
+          />
+          <Route path="/capstone-itinerizeme/:locationId/:date/:departureDate/:arrivalTime/:departureTime" render={routeProps =>
+          <DayplannerContainer params={routeProps.match.params}store={this.state.store}
+              />}
+          />
+        </div>
+     </Router>
     );
   }
 }
@@ -108,7 +118,6 @@ export default App;
 
 
 
-  {/* <GlobalStyle /> */}
 
 
   // function App(){
@@ -124,13 +133,13 @@ export default App;
 // navbarState={navbarOpen}
 // handleNavbar={handleNavbar}
 
-{/* <TripController 
+/* <TripController 
 googleSignin={googleSignin}
 currentUserId={currentUserId} 
 userSignInStatus={isSignedIn} 
 userName={userName} 
 userEmail={userEmail}
-/>   */}
+/>   */
 
 // provider = new firebase.auth.GoogleAuthProvider();
 

@@ -1,10 +1,10 @@
-export function StartwithZero(s) {
+export function leadingZero(s) {
   let b = s + "";
   if (b.length < 2) return "0" + b;
   return b;
 }
 
-export function NameofTheMonth(index) {
+export function monthName(index) {
   return [
     "jan",
     "feb",
@@ -21,13 +21,13 @@ export function NameofTheMonth(index) {
   ][index];
 }
 
-export function requestApi(query) {
+export function apiRequest(query) {
   const url = `/api/v2/${query}`;
   return fetch(url, {
     credentials: "include",
     headers: {
-      "X-Account": process.env.REACT_APP_API_ACCOUNT,
-      "X-Token": process.env.REACT_APP_API_TOKEN
+      "X-Triposo-Account": process.env.REACT_APP_TRIPOSO_API_ACCOUNT,
+      "X-Triposo-Token": process.env.REACT_APP_TRIPOSO_API_TOKEN
     }
   }).then(
     response => {
