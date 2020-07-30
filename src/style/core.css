@@ -24,7 +24,7 @@ body {
   max-width: 680px;
   margin: 64px auto;
   text-align: left;
-  background-color: #fff;
+  background-color: rgb(223, 117, 117);
   border-radius: 12px;
   padding: 64px;
 }
@@ -57,7 +57,7 @@ body {
   margin: 0;
   padding: 0;
   display: flex;
-  background-color: #333439;
+  background-color: #5e6db8;
   overflow: hidden;
 }
 

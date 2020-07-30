@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { BrowserRouter as Router,Link } from "react-router-dom";
 import { observer } from "mobx-react";
 import PropTypes from "prop-types";
 
@@ -12,18 +12,21 @@ class ConfigurationContainer extends React.Component {
 
   onSelectLocation = loc => {
     this.props.store.updateLocation(loc);
+  
   };
+  
 
   buildUrl = () => {
     const { store } = this.props;
-    return `/dayplanner/${store.location
+    return `/addtrip/${store.location
       .id}/${store.dateString}/${store.departureDateString}/${store.arrivalTime}/${store.departureTime}`;
   };
 
   render() {
     const { store } = this.props;
-
+    
     return (
+      <Router>
       <div className="configuration-container">
         <div className="configuration-form">
           <h1>Triposo API Dayplanner demo</h1>
@@ -32,6 +35,7 @@ class ConfigurationContainer extends React.Component {
               <label>Where are you going?</label>
               <LocationAutoComplete
                 onSelectLocation={location => (store.location = location)}
+                
               />
             </li>
             <li>
@@ -78,6 +82,7 @@ class ConfigurationContainer extends React.Component {
           </Link>
         </div>
       </div>
+      </Router>
     );
   }
 }

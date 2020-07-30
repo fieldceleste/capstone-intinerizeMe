@@ -43,7 +43,9 @@ class DayplannerMap extends React.Component {
 
     return (
       <div className="dayplanner-map">
-        <GoogleMap zoom={bounds.zoom} center={bounds.center}>
+        <GoogleMap 
+        zoom={bounds.zoom} 
+        center={bounds.center}>
           {markers}
         </GoogleMap>
       </div>

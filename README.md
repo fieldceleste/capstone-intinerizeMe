@@ -137,7 +137,9 @@ enter in specs when complete
 <p align="center"><a name="component-diagram">
 <img src="./public/Readme/comp.png">
 </p></a>
- images here 
+<p align="center">
+<img src="./public/Readme/capstone.png">
+</p>
 
 [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#screenshots)
 
@@ -145,7 +147,12 @@ enter in specs when complete
 <img src="./public/Readme/visual.png">
 </p></a>
 
-images here when complete
+<p align="center">
+<img src="./public/Readme/clip1.gif">
+<img src="./public/Readme/clip2.gif">
+<img src="./public/Readme/giphy3.gif">
+<img src="./public/Readme/gify4.gif">
+</p>
 
 [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#prerequisites)
 

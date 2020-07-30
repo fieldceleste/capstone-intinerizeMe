@@ -34,9 +34,7 @@ export default class LocationAutoComplete extends React.Component {
 
   fetchLocations(t) {
     let include = "id,name,country_id";
-    let url = `location.json?annotate=trigram:${encodeURIComponent(
-      t
-    )}&trigram=>0.25&fields=${include}&order_by=-score&count=10`;
+    let url = `location.json?annotate=trigram:${encodeURIComponent(t)}&trigram=>0.25&fields=${include}&order_by=-score&count=10`;
     apiRequest(url).then(
       response => {
         this.setState({ items: response.results });
@@ -53,13 +51,14 @@ export default class LocationAutoComplete extends React.Component {
           value={this.state.value}
           items={this.state.items}
           getItemValue={item => item.name}
+
           onSelect={(value, item) => {
             this.setState({ value, items: [item] });
             this.props.onSelectLocation(item);
           }}
           onChange={(event, value) => {
             this.setState({ value });
-            this.fetchLocations(value);
+            this.fetchLocations(value);  
           }}
           renderItem={(item, isHighlighted) =>
             <div

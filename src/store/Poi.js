@@ -1,6 +1,6 @@
 import { extendObservable, computed } from "mobx";
 import Location from "./Location";
-import { apiRequest } from "..//utils";
+import { apiRequest } from "../utils";
 
 export default class Poi {
   constructor(json = null) {

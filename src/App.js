@@ -79,9 +79,9 @@ class App extends Component {
          handleNavbar={this.handleNavbar}
         />
 
-         <Route exact path="/addtrip"render={() => <ConfigurationContainer store={this.state.store} />}
+         <Route exact path="/addtrip" render={() => <ConfigurationContainer store={this.state.store} />}
           />
-          <Route path="/capstone-itinerizeme/:locationId/:date/:departureDate/:arrivalTime/:departureTime" render={routeProps =>
+          <Route path="/:locationId/:date/:departureDate/:arrivalTime/:departureTime" render={routeProps =>
           <DayplannerContainer params={routeProps.match.params}store={this.state.store}
               />}
           />
